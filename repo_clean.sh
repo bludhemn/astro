@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Iterates through list of repos and deletes branches over 30 days old and merged to master.
+#
 set -ex
 
 # Define the list of repositories
